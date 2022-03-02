@@ -1,3 +1,4 @@
+import React from "react";
 const Tours = (props) =>{
     return(
         <>
@@ -7,6 +8,7 @@ const Tours = (props) =>{
                     <div>
                         <h3>{Tour.name}</h3>
                         <img src={Tour.image} alt=""/>
+                        <hr></hr>
                     </div>
                 )
             })
