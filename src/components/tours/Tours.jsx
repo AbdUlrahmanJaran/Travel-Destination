@@ -1,15 +1,13 @@
 import React from "react";
+import Tour from "./tour/Tour";
+
 const Tours = (props) =>{
     return(
         <>
         {
-            props.tours.map(Tour => {
+            props.tours.map(city => {
                 return(
-                    <div>
-                        <h3>{Tour.name}</h3>
-                        <img src={Tour.image} alt=""/>
-                        <hr></hr>
-                    </div>
+                    <Tour key={city.id} city={city}/>
                 )
             })
         }
