@@ -8,6 +8,7 @@ const Tours = (props) =>{
             props.tours.map(city => {
                 return(
                     <Tour key={city.id} city={city}/>
+
                 )
             })
         }
