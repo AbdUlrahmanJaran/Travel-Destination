@@ -5,8 +5,8 @@ const Tours = (props) =>{
         {
             props.tours.map(Tour => {
                 return(
-                    <div>
-                        <h3>{Tour.name}</h3>
+                    <div id="tourDiv">
+                        <h3>Place: {Tour.name}</h3>
                         <img src={Tour.image} alt=""/>
                         <hr></hr>
                     </div>
