@@ -1,0 +1,14 @@
+.name {
+ text-decoration: none;
+ color: black;
+}
+.div{
+    border: 1px solid blue;
+    width: fit-content;
+    padding: 5px;
+    margin: 25px;
+}
+hr{
+    background-color: black;
+    
+}
